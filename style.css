@@ -1,0 +1,150 @@
+body{
+    width: 100%;
+}
+.hero{
+    background: linear-gradient(90deg,#ff5757,#8c52ff);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    color: black;
+}
+.scroll-section{
+    position: absolute;
+    bottom: 0;
+    left: 41%;
+    text-align: center;
+}
+#developer-vector{
+    position: absolute;
+    top: 135.5px;
+    right: 20px;
+}
+h1{
+    font-size: 80px;
+}
+.hero h2{
+    width: 880px;
+    font-size: 43px;
+}
+.hero-text{
+    margin: 50px 0 0 50px;
+}
+.about-me{
+    background: linear-gradient(180deg,#f7d3fe,#a5c3f5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.about-me-container{
+    width: 1139px;
+}
+.me{
+    border-radius: 50%;
+    box-shadow: gray 1px 1px 80px;
+}
+.about-me-container h2, .resume h2{
+    font-size: 50px;
+    text-align: center;
+}
+.resume h2{
+    margin-bottom: 30px;
+}
+.about-me-container p{
+    font-size: 35px;
+    padding: 0 9px 0 0;
+    border-right: solid rgb(37, 37, 37) 1px;
+}
+.bottom-border{
+    border-bottom: solid rgb(37, 37, 37) 1px;
+}
+.bottom-border2{
+    border-bottom: dotted rgb(37, 37, 37) 5px;
+}
+.resume{
+    height: 100vh;
+    background-color: #e6efff;
+    
+}
+.birthday-project, .financial-project{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 335px;
+    align-items: center;
+}
+.project-pic{
+    border-radius: 10px;
+    box-shadow: #efd1df -1px -1px 10px;
+    margin-bottom: 10px;
+}
+.project-name{
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+}
+.project-text{
+    font-size: 24px;
+    font-weight: bold;
+}
+.birthday-right p{
+    text-align: right;
+    border-right: solid rgb(37, 37, 37) 1px;
+    padding-right: 10px;
+    width: 400px;
+}
+.financial-left{
+    text-align: left;
+    border-left: solid rgb(37, 37, 37) 1px;
+    padding-left: 10px;
+    width: 400px;
+}
+.hire-me{
+    background-color: #e6efff;
+    height: 110vh;
+}
+.hire-me .container{
+    display: flex; 
+    flex-direction: column;
+}
+.hire{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:30px ;
+}
+.hire p{
+    padding-top: 60px;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(36, 62, 94);
+    text-align: left;
+    width: 600px;
+}
+.hire img{
+    margin-top: 120px;
+}
+.contact-me{
+    display: flex;
+    flex-direction: column;
+}
+.contact-link{
+    
+    display: flex;
+    flex-direction: column;
+}
+.contact-me p{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(79, 79, 79);
+}
+.text-center{
+    font-size: 50px;
+}
+.contact-me a{
+    font-size: 20px;
+}
