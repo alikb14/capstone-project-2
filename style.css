@@ -1,0 +1,266 @@
+body{
+    width: 100%;
+}
+/* hero section */
+
+.hero{
+    background: linear-gradient(90deg,#ff5757,#8c52ff);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    color: black;
+}
+.scroll-section{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%);
+}
+#developer-vector{
+    position: absolute;
+    top: 190px;
+    right: 20px;
+}
+h1{
+    font-size: 5rem;
+}
+.hero h2{
+    font-size: 2.6875rem;
+}
+.hero-text{
+    margin: 50px 0 0 50px;
+}
+.hero-text h2 .span, .hire .span{
+    display: block;
+}
+
+/* about me section */
+
+.about-me{
+    background: linear-gradient(180deg,#f7d3fe,#a5c3f5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.me{
+    border-radius: 50%;
+    box-shadow: gray 1px 1px 80px;
+}
+.about-me-container h2, .resume h2{
+    font-size: 3.125rem;
+    text-align: center;
+}
+.about-me-container p{
+    font-size: 2.1875rem;
+    padding: 0 9px 0 0;
+    border-right: solid rgb(37, 37, 37) 1px;
+}
+
+/* resume section */
+
+.resume h2{
+    margin-bottom: 10px;
+}
+.bottom-border{
+    border-bottom: solid rgb(37, 37, 37) 1px;
+}
+.bottom-border2{
+    border-bottom: dotted rgb(37, 37, 37) 5px;
+}
+.resume{
+    height: 100vh;
+    background-color: #e6efff;
+    
+}
+.birthday-project, .financial-project{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 335px;
+    align-items: center;
+}
+.project-pic{
+    border-radius: 10px;
+    box-shadow: #efd1df -1px -1px 10px;
+}
+.project-name{
+    font-size: 1.1875rem;
+    font-weight: bold;
+    text-align: center;
+}
+.project-text{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.birthday-right p{
+    text-align: right;
+    border-right: solid rgb(37, 37, 37) 1px;
+    padding-right: 10px;
+}
+.financial-left{
+    text-align: left;
+    border-left: solid rgb(37, 37, 37) 1px;
+    padding-left: 10px;
+}
+
+/* hire me section */
+
+.hire-me{
+    background-color: #e6efff;
+    height: 110vh;
+}
+.hire-me .container{
+    display: flex; 
+    flex-direction: column;
+}
+.hire{
+    display: flex;
+    justify-content: space-between;
+}
+.hire p{
+    padding-top: 60px;
+    font-weight: bold;
+    font-size: 1.5625rem;
+    color: rgb(36, 62, 94);
+    text-align: left;
+}
+.hire img{
+    margin-top: 120px;
+}
+
+/* contact me section */
+
+.contact-me{
+    display: flex;
+    flex-direction: column;
+}
+.contact-link{
+    
+    display: flex;
+    flex-direction: column;
+}
+.contact-me p{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: rgb(79, 79, 79);
+}
+.text-center{
+    font-size: 3.125rem;
+}
+.contact-me a{
+    font-size: 1.25rem;
+}
+
+/* media query */
+
+
+@media (20rem <= width < 26.625rem) { 
+    #developer-vector{
+        width: 350px;
+        height: 350px;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .hero-text{
+        margin-left: 0;
+    }
+    .hero-text h1{
+        font-size: 2.1rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    .hero-text h2{
+        font-size: 1.3rem;
+        font-weight: 500;
+        text-align: left;
+        margin-left: 15px;
+    }
+    .hero-text h2 .media-span{
+        display: block;
+    }
+    .hero-text h2 .span, .hire span{
+        display: none;
+    }
+    .me{
+        width: 150px;
+        height: 150px;
+    }
+    .about-me-container h2, .resume h2{
+        font-size: 1.875rem;
+    }
+    .about-me-container p{
+        font-size: 1.35rem;
+        border-right: none;
+    }
+    .bottom-border{
+        border-bottom: none;
+    }
+    .resume{
+        display: flex;
+        flex-direction: column;
+    }
+    .birthday-project, .financial-project{
+        display: flex;
+        flex-direction: column;
+        height: 280px;
+        justify-content:space-evenly;
+        text-align: center;
+    }
+    .financial-project{
+        flex-direction: column-reverse;
+        margin-top: 20px;
+    }
+    .birthday-right p{
+        text-align: unset;
+        border-right: none;
+    }
+    .financial-left{
+        border-left: none;
+    }
+    .project-pic{
+        width: 200px;
+        height: 100px;
+    }
+    .project-name{
+        text-align: center;
+    }
+    .project-text{
+     font-size: 1.125rem;
+     text-align: center;   
+     font-weight: 400;
+    }
+    .resume h2{
+        margin-top: 20px;
+    }
+    .hire img{
+        width: 300px;
+        height: 300px;
+        margin-top: 0;
+        margin-left: 50px;
+    }
+    .hire{
+        flex-direction: column;
+    }
+    .hire p{
+        font-size: 1.2rem;
+    }
+    .hire-me{
+        height: 120vh;
+    }
+    .text-center{
+        font-size: 2.5rem;
+    }
+    .contact-me p{
+        font-size: 1.125rem;
+    }
+    .contact-link a{
+        font-size: 1rem;
+    }
+}
